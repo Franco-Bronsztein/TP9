@@ -1,0 +1,201 @@
+html {
+  font-size: 14px;
+  position: relative;
+  min-height: 100%;
+}
+
+body
+{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+body {
+  margin: 20px 60px 0px 20px;
+}
+
+footer {
+  position: fixed; 
+  bottom: 0; 
+  margin: 10px 0px 20px 0px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+}
+
+.buttonDiv 
+{
+  margin: 12px;
+}
+
+.buttonIndex {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #000000;
+  background-color:antiquewhite;
+  border-radius: 7px;
+  transition: background-color 0.3s ease;
+}
+
+.buttonIndex:hover {
+  background-color:aliceblue;
+}
+
+.FormLogin {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 7px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.FormLogin label {
+  text-align: center;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.FormLogin input {
+  width: 300px;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+.FormLogin button {
+  align-items: center;
+  background-color: antiquewhite;
+  color: #000000;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.FormLogin button:hover {
+  background-color: aliceblue;
+}
+
+.Formregistrer {
+  max-width: 400px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#username,
+#password,
+#name,
+#email,
+#phone {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#MensajeA,
+#MensajeB,
+#MensajeC {
+  display: block;
+  margin-top: 8px;
+  font-size: 14px;
+  color: red;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+#Bienvenida {
+  text-align: center;
+  color: antiquewhite; 
+  font-size: 24px; 
+  margin-top: 50px; 
+}
+
+h2 {
+  font-size: 18px;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.buttonDiv {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.buttonIndex {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: black;
+  background-color: antiquewhite;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.buttonIndex:hover {
+  background-color: aliceblue;
+}
+
+form {
+  width: 300px;
+  margin: 50px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+form label {
+  display: block;
+  margin-bottom: 8px;
+}
+
+form input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+form button {
+  background-color: antiquewhite;
+  color: #000000;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: aliceblue;
+}
+
+
